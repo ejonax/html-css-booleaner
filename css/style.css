@@ -6,14 +6,18 @@ body{
 
 /* header styles*/
 header{
-   
+    background-color:#aad1f2;
+    height:200px;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
+    z-index: -1;
 }
 
 header img{
-  width: 140px;
-  background-color:cadetblue;
+  width: 200px;
+  padding-left: 170px;
+  padding-top: 100px;
+ 
 }
 
 main{
@@ -30,7 +34,7 @@ h1{
     font-size: small;
 }
 
-.blue-color{
+.blue-font-color{
     color: blue;
 }
 
@@ -42,7 +46,29 @@ ul{
     margin-top: 32px;
 }
 
-footer{
+
+/* table style*/
+  table{
+    max-width: 1200px;
+  }
+
+  .blueBck-whiteFont {
+    color: white;
+    font-weight: 300;
+    background-color:#80a4f4;
+    text-align: left;
+  }
+
+  .tr-20Percent{
+    width: 20%;
+  }
+
+  .blue-tr {
+    background-color:#e3eaf9;
+  }
+
+  /* footer style */
+  footer{
     background-color:#2e2e6b;;
     text-align: center; /* centrare in orizzontale */
     height: 35px;
