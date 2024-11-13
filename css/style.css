@@ -1,0 +1,53 @@
+
+body{
+ margin: auto;
+ padding: 0;
+}
+
+/* header styles*/
+header{
+   
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+}
+
+header img{
+  width: 140px;
+  background-color:cadetblue;
+}
+
+main{
+    padding:16px;
+    
+}
+
+h1{
+   margin-bottom: 0px; 
+}
+
+.small-size{
+    margin-top: 0;
+    font-size: small;
+}
+
+.blue-color{
+    color: blue;
+}
+
+.yellow-background{
+    background-color: yellow;
+}
+
+ul{
+    margin-top: 32px;
+}
+
+footer{
+    background-color:#2e2e6b;;
+    text-align: center; /* centrare in orizzontale */
+    height: 35px;
+    line-height: 35px;/* centrare in verticale */
+    color: white;
+    font-size: smaller;
+    margin-top: 32px;
+}
