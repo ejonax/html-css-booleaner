@@ -1,7 +1,7 @@
-
 body{
  margin: auto;
  padding: 0;
+ font-family:'Times New Roman', Times, serif;
 }
 
 /* header styles*/
@@ -20,8 +20,10 @@ header img{
  
 }
 
+/* main section styles */
 main{
     padding:16px;
+    padding-left: 200px;
     
 }
 
@@ -44,6 +46,11 @@ h1{
 
 ul{
     margin-top: 32px;
+    padding-left: 15px;
+}
+
+.max-width{
+    width: 85%;
 }
 
 
